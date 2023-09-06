@@ -1,0 +1,4 @@
+#Tue Sep 05 20:27:35 CDT 2023
+base.0=C\:\\Users\\Godot\\Tarea TSICII\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
