@@ -1,0 +1,49 @@
+{
+  "modelName": "animation_model",
+  "name": "Take 01",
+  "identifier": "animation_model:1001629-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+  "sourceIdentifier": "asset_collection_model:1001641-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+  "assetLocator": "746df1c926d7fc138aeafa8949466796.glb",
+  "duration": 4,
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "importIssues": {},
+  "isExternalAsset": false,
+  "ticksPerSecond": 1000,
+  "children": [
+    {
+      "modelName": "animation_channels_model",
+      "identifier": "animation_channels_model:1001631-a8098ed6-805a-4a88-860d-aa8c39af06d3"
+    },
+    {
+      "modelName": "animation_channel_model",
+      "name": "animation_channel_model0",
+      "identifier": "animation_channel_model:1001633-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+      "animationMask": {
+        "position": true,
+        "rotation": true,
+        "scale": true
+      }
+    },
+    {
+      "modelName": "animation_channel_model",
+      "name": "animation_channel_model1",
+      "identifier": "animation_channel_model:1001635-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+      "animationMask": {
+        "position": true,
+        "rotation": true,
+        "scale": true
+      }
+    },
+    {
+      "modelName": "animation_channel_model",
+      "name": "animation_channel_model2",
+      "identifier": "animation_channel_model:1001637-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+      "animationMask": {
+        "position": true,
+        "rotation": true,
+        "scale": true
+      }
+    }
+  ]
+}

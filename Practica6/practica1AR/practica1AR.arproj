@@ -1,0 +1,3757 @@
+{
+  "modelName": "document",
+  "name": "Effect",
+  "identifier": "document:1038-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+  "id": "665396358c5b3522954f80ae5ec562dbbc717b",
+  "revision": "653144358c5b3522954f80ae5ec562dbbc717b",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 172
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 69
+  },
+  "cameraFar": 50,
+  "cameraNear": 0.009999999776482582,
+  "measurementUnit": "meter",
+  "objects": [
+    {
+      "modelName": "assets_config_model",
+      "identifier": "assets_config_model:113893-57555275-0a8b-40cb-a125-158320262aff",
+      "categoriesOrder": [
+        "materials",
+        "textures",
+        "shaders",
+        "scripts",
+        "patch_assets",
+        "blocks"
+      ]
+    }
+  ],
+  "previousDocumentIds": [
+    "103719c62b798d4c49c9ae3f98605ecfa30f",
+    "343523b51f2c701b747b69e012b3c341c4c3e",
+    "13245030ff3e5fa504638b1d11076431402d0",
+    "14160e2a62383864d46839518677b05d03304",
+    "14160e2a62383864d46839518677b05d03304",
+    "113894575552750a8b40cba125158320262aff",
+    "991376a8098ed6805a4a88860daa8c39af06d3",
+    "1053173a8098ed6805a4a88860daa8c39af06d3"
+  ],
+  "projectFormatType": "separated_files",
+  "usingPatchesV2": true,
+  "visual_programming": {
+    "sectionFileLocation": "practica1AR.patches"
+  },
+  "children": [
+    {
+      "modelName": "textures",
+      "identifier": "textures:1040-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "defaultEnvironmentTexture": "environment_texture_model:993053-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+      "children": [
+        {
+          "modelName": "colorTexture",
+          "name": "colorTexture0",
+          "identifier": "colorTexture:96294-e2fcc7b4-479d-45c2-a136-c0a6ad66267b",
+          "color": "0xff7f007f"
+        },
+        {
+          "modelName": "cameraTexture",
+          "name": "cameraTexture0",
+          "identifier": "cameraTexture:502789-95d88d42-94c3-4d21-be5e-db151fe8757c",
+          "sourceSceneObjectIdentifier": "camera:1074-19c62b79-8d4c-49c9-ae3f-98605ecfa30f"
+        },
+        {
+          "modelName": "render_pass_texture_delegate_model",
+          "name": "Scene Render Pass Texture",
+          "identifier": "render_pass_texture_delegate_model:503545-95d88d42-94c3-4d21-be5e-db151fe8757c",
+          "patchV2": "template_patch_model:94078-57555275-0a8b-40cb-a125-158320262aff",
+          "sourceSceneObjectIdentifier": "template_patch_model:94078-57555275-0a8b-40cb-a125-158320262aff"
+        },
+        {
+          "sectionFileLocation": "textures/DiffuseEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/PreviewEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/SpecularEnvironment.texture"
+        },
+        {
+          "modelName": "environment_texture_model",
+          "name": "Default environment texture",
+          "identifier": "environment_texture_model:993053-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "diffuseEnvironmentTextureIdentifier": "textures/DiffuseEnvironment.texture",
+          "previewEnvironmentTextureIdentifier": "textures/PreviewEnvironment.texture",
+          "specularEnvironmentTextureIdentifier": "textures/SpecularEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Texture 0.texture"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Texture 1.texture"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Texture 3.texture"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Texture 5.texture"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Texture 7.texture"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Texture 8.texture"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Texture 9.texture"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Texture 10.texture"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Texture 11.texture"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Texture 12.texture"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Texture 13.texture"
+        },
+        {
+          "sectionFileLocation": "objects/p.u.c._security_bot_7/Texture 0-2.texture"
+        }
+      ]
+    },
+    {
+      "modelName": "materials",
+      "identifier": "materials:1041-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "children": [
+        {
+          "sectionFileLocation": "materials/manip_ring_mat.material"
+        },
+        {
+          "sectionFileLocation": "materials/anchor_mat.material"
+        },
+        {
+          "sectionFileLocation": "materials/drop_shadow_mat.material"
+        },
+        {
+          "sectionFileLocation": "objects/low-poly_truck_car_drifter/Black.material"
+        },
+        {
+          "sectionFileLocation": "objects/low-poly_truck_car_drifter/Light_black.material"
+        },
+        {
+          "sectionFileLocation": "objects/low-poly_truck_car_drifter/Smoke.material"
+        },
+        {
+          "sectionFileLocation": "objects/low-poly_truck_car_drifter/Orange.material"
+        },
+        {
+          "sectionFileLocation": "objects/low-poly_truck_car_drifter/Glass.material"
+        },
+        {
+          "sectionFileLocation": "objects/low-poly_truck_car_drifter/Light.material"
+        },
+        {
+          "sectionFileLocation": "objects/low-poly_truck_car_drifter/Light_red.material"
+        },
+        {
+          "sectionFileLocation": "objects/low-poly_truck_car_drifter/Dark_brown.material"
+        },
+        {
+          "sectionFileLocation": "objects/low-poly_truck_car_drifter/Dark_brown_handle.material"
+        },
+        {
+          "sectionFileLocation": "objects/low-poly_truck_car_drifter/Glass_trailer.material"
+        },
+        {
+          "sectionFileLocation": "objects/low-poly_truck_car_drifter/Brown.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Foundation.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Walls.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Window_B.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Flower_Box_1.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Window_N.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Flower_Box_2.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Door_texture.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Stair.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Window_onning.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Trim.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Roof1.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Trim_detail.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/lambert1.material"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/Air_condi.material"
+        },
+        {
+          "sectionFileLocation": "objects/p.u.c._security_bot_7/Material.material"
+        },
+        {
+          "sectionFileLocation": "objects/p.u.c._security_bot_7/Material.001.material"
+        }
+      ]
+    },
+    {
+      "modelName": "prefabs",
+      "identifier": "prefabs:1042-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "children": [
+        {
+          "modelName": "gltf",
+          "name": "gltf0",
+          "identifier": "gltf:86719-e2fcc7b4-479d-45c2-a136-c0a6ad66267b",
+          "sourceIdentifier": "master3_d_object_model:86722-e2fcc7b4-479d-45c2-a136-c0a6ad66267b",
+          "assetLocator": "86720-e2fcc7b4-479d-45c2-a136-c0a6ad66267b.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Front_wheel_Black_0",
+          "identifier": "gltf:992492-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992493-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Front_wheel_Light_black_0",
+          "identifier": "gltf:992504-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992505-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Rear_wheel_Black_0",
+          "identifier": "gltf:992518-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992519-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Rear_wheel_Light_black_0",
+          "identifier": "gltf:992530-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992531-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Front_wheel.001_Black_0",
+          "identifier": "gltf:992544-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992545-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Front_wheel.001_Light_black_0",
+          "identifier": "gltf:992556-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992557-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Rear_wheel.001_Black_0",
+          "identifier": "gltf:992570-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992571-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Rear_wheel.001_Light_black_0",
+          "identifier": "gltf:992582-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992583-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Spring_Light_black_0",
+          "identifier": "gltf:992596-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992597-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Spring_Black_0",
+          "identifier": "gltf:992608-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992609-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Spring.001_Light_black_0",
+          "identifier": "gltf:992622-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992623-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Spring.001_Black_0",
+          "identifier": "gltf:992634-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992635-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Spring.002_Light_black_0",
+          "identifier": "gltf:992648-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992649-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Spring.002_Black_0",
+          "identifier": "gltf:992660-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992661-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Spring.003_Light_black_0",
+          "identifier": "gltf:992674-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992675-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Spring.003_Black_0",
+          "identifier": "gltf:992686-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992687-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Smoke.001_Smoke_0",
+          "identifier": "gltf:992700-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992701-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Smoke.002_Smoke_0",
+          "identifier": "gltf:992714-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992715-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Smoke.003_Smoke_0",
+          "identifier": "gltf:992728-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992729-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Smoke.004_Smoke_0",
+          "identifier": "gltf:992742-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992743-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Smoke.005_Smoke_0",
+          "identifier": "gltf:992756-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992757-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Smoke.006_Smoke_0",
+          "identifier": "gltf:992770-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992771-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Smoke.007_Smoke_0",
+          "identifier": "gltf:992784-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992785-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Smoke.008_Smoke_0",
+          "identifier": "gltf:992798-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992799-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Smoke.009_Smoke_0",
+          "identifier": "gltf:992812-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992813-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Smoke.010_Smoke_0",
+          "identifier": "gltf:992826-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992827-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Smoke.011_Smoke_0",
+          "identifier": "gltf:992840-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992841-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Smoke.012_Smoke_0",
+          "identifier": "gltf:992854-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992855-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Frame_Orange_0",
+          "identifier": "gltf:992868-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992869-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Frame_Black_0",
+          "identifier": "gltf:992880-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992881-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Frame_Glass_0",
+          "identifier": "gltf:992892-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992893-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Frame_Light_0",
+          "identifier": "gltf:992904-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992905-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Frame_Light_red_0",
+          "identifier": "gltf:992916-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992917-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Frame_Dark_brown_0",
+          "identifier": "gltf:992928-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992929-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Frame_Dark_brown_handle_0",
+          "identifier": "gltf:992940-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992941-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Frame_Glass_trailer_0",
+          "identifier": "gltf:992952-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992953-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Frame_Light_black_0",
+          "identifier": "gltf:992964-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992965-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Frame_Brown_0",
+          "identifier": "gltf:992976-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:992982-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "992977-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube2_Foundation_0",
+          "identifier": "gltf:994187-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994188-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube2_Walls_0",
+          "identifier": "gltf:994199-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994200-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube3_Window_B_0",
+          "identifier": "gltf:994219-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994220-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube4_Flower_Box_1_0",
+          "identifier": "gltf:994233-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994234-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube5_Window_B_0",
+          "identifier": "gltf:994247-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994248-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube6_Window_B_0",
+          "identifier": "gltf:994261-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994262-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube7_Window_N_0",
+          "identifier": "gltf:994275-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994276-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube8_Flower_Box_2_0",
+          "identifier": "gltf:994289-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994290-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube9_Window_N_0",
+          "identifier": "gltf:994303-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994304-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube10_Window_N_0",
+          "identifier": "gltf:994317-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994318-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube11_Window_B_0",
+          "identifier": "gltf:994331-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994332-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube12_Flower_Box_1_0",
+          "identifier": "gltf:994345-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994346-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube13_Window_B_0",
+          "identifier": "gltf:994359-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994360-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube14_Window_B_0",
+          "identifier": "gltf:994373-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994374-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube3_Window_B_1",
+          "identifier": "gltf:994391-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994392-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube4_Flower_Box_1_1",
+          "identifier": "gltf:994405-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994406-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube5_Window_B_1",
+          "identifier": "gltf:994419-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994420-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube6_Window_B_1",
+          "identifier": "gltf:994433-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994434-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube7_Window_N_1",
+          "identifier": "gltf:994447-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994448-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube8_Flower_Box_2_1",
+          "identifier": "gltf:994461-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994462-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube9_Window_N_1",
+          "identifier": "gltf:994475-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994476-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube10_Window_N_1",
+          "identifier": "gltf:994489-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994490-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube11_Window_B_1",
+          "identifier": "gltf:994503-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994504-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube12_Flower_Box_1_1",
+          "identifier": "gltf:994517-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994518-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube13_Window_B_1",
+          "identifier": "gltf:994531-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994532-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube14_Window_B_1",
+          "identifier": "gltf:994545-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994546-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube15_Walls_0",
+          "identifier": "gltf:994559-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994560-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube15_Foundation_0",
+          "identifier": "gltf:994571-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994572-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube3_Window_B_2",
+          "identifier": "gltf:994591-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994592-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube4_Flower_Box_1_2",
+          "identifier": "gltf:994605-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994606-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube5_Window_B_2",
+          "identifier": "gltf:994619-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994620-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube6_Window_B_2",
+          "identifier": "gltf:994633-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994634-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube7_Window_N_2",
+          "identifier": "gltf:994647-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994648-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube8_Flower_Box_2_2",
+          "identifier": "gltf:994661-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994662-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube9_Window_N_2",
+          "identifier": "gltf:994675-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994676-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube10_Window_N_2",
+          "identifier": "gltf:994689-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994690-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube11_Window_B_2",
+          "identifier": "gltf:994703-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994704-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube12_Flower_Box_1_2",
+          "identifier": "gltf:994717-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994718-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube13_Window_B_2",
+          "identifier": "gltf:994731-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994732-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube14_Window_B_2",
+          "identifier": "gltf:994745-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994746-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube3_Window_B_3",
+          "identifier": "gltf:994763-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994764-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube4_Flower_Box_1_3",
+          "identifier": "gltf:994777-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994778-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube5_Window_B_3",
+          "identifier": "gltf:994791-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994792-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube6_Window_B_3",
+          "identifier": "gltf:994805-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994806-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube7_Window_N_3",
+          "identifier": "gltf:994819-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994820-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube8_Flower_Box_2_3",
+          "identifier": "gltf:994833-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994834-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube9_Window_N_3",
+          "identifier": "gltf:994847-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994848-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube10_Window_N_3",
+          "identifier": "gltf:994861-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994862-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube11_Window_B_3",
+          "identifier": "gltf:994875-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994876-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube12_Flower_Box_1_3",
+          "identifier": "gltf:994889-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994890-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube13_Window_B_3",
+          "identifier": "gltf:994903-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994904-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube14_Window_B_3",
+          "identifier": "gltf:994917-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994918-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube3_Window_B_4",
+          "identifier": "gltf:994937-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994938-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube4_Flower_Box_1_4",
+          "identifier": "gltf:994951-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994952-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube5_Window_B_4",
+          "identifier": "gltf:994965-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994966-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube6_Window_B_4",
+          "identifier": "gltf:994979-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994980-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube7_Window_N_4",
+          "identifier": "gltf:994993-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "994994-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube8_Flower_Box_2_4",
+          "identifier": "gltf:995007-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995008-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube9_Window_N_4",
+          "identifier": "gltf:995021-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995022-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube10_Window_N_4",
+          "identifier": "gltf:995035-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995036-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube11_Window_B_4",
+          "identifier": "gltf:995049-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995050-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube12_Flower_Box_1_4",
+          "identifier": "gltf:995063-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995064-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube13_Window_B_4",
+          "identifier": "gltf:995077-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995078-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube14_Window_B_4",
+          "identifier": "gltf:995091-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995092-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube3_Window_B_5",
+          "identifier": "gltf:995109-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995110-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube4_Flower_Box_1_5",
+          "identifier": "gltf:995123-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995124-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube5_Window_B_5",
+          "identifier": "gltf:995137-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995138-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube6_Window_B_5",
+          "identifier": "gltf:995151-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995152-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube7_Window_N_5",
+          "identifier": "gltf:995165-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995166-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube8_Flower_Box_2_5",
+          "identifier": "gltf:995179-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995180-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube9_Window_N_5",
+          "identifier": "gltf:995193-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995194-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube10_Window_N_5",
+          "identifier": "gltf:995207-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995208-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube11_Window_B_5",
+          "identifier": "gltf:995221-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995222-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube12_Flower_Box_1_5",
+          "identifier": "gltf:995235-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995236-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube13_Window_B_5",
+          "identifier": "gltf:995249-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995250-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube14_Window_B_5",
+          "identifier": "gltf:995263-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995264-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube18_Window_N_0",
+          "identifier": "gltf:995277-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995278-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube18_Door_texture_0",
+          "identifier": "gltf:995289-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995290-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube19_Door_texture_0",
+          "identifier": "gltf:995303-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995304-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pSphere1_Door_texture_0",
+          "identifier": "gltf:995317-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995318-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube20_Stair_0",
+          "identifier": "gltf:995331-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995332-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube21_Stair_0",
+          "identifier": "gltf:995345-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995346-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube22_Stair_0",
+          "identifier": "gltf:995359-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995360-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube23_Stair_0",
+          "identifier": "gltf:995373-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995374-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube24_Stair_0",
+          "identifier": "gltf:995387-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995388-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube27_Window_onning_0",
+          "identifier": "gltf:995403-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995404-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_B_0",
+          "identifier": "gltf:995417-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995418-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_N_0",
+          "identifier": "gltf:995429-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995430-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube26_Window_onning_0",
+          "identifier": "gltf:995443-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995444-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube27_Window_onning_1",
+          "identifier": "gltf:995459-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995460-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_B_1",
+          "identifier": "gltf:995473-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995474-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_N_1",
+          "identifier": "gltf:995485-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995486-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube26_Window_onning_1",
+          "identifier": "gltf:995499-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995500-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube27_Window_onning_2",
+          "identifier": "gltf:995515-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995516-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_B_2",
+          "identifier": "gltf:995529-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995530-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_N_2",
+          "identifier": "gltf:995541-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995542-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube26_Window_onning_2",
+          "identifier": "gltf:995555-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995556-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube28_Trim_0",
+          "identifier": "gltf:995569-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995570-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube28_Roof1_0",
+          "identifier": "gltf:995581-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995582-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube29_Trim_0",
+          "identifier": "gltf:995595-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995596-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube30_Trim_0",
+          "identifier": "gltf:995609-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995610-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube31_Trim_0",
+          "identifier": "gltf:995623-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995624-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube31_Roof1_0",
+          "identifier": "gltf:995635-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995636-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube33_Trim_detail_0",
+          "identifier": "gltf:995651-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995652-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_0",
+          "identifier": "gltf:995665-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995666-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_0",
+          "identifier": "gltf:995679-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995680-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_0",
+          "identifier": "gltf:995693-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995694-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_0",
+          "identifier": "gltf:995707-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995708-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_0",
+          "identifier": "gltf:995721-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995722-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_0",
+          "identifier": "gltf:995735-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995736-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_0",
+          "identifier": "gltf:995749-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995750-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_0",
+          "identifier": "gltf:995763-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995764-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube42_Trim_detail_0",
+          "identifier": "gltf:995777-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995778-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube32_Trim_detail_0",
+          "identifier": "gltf:995791-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995792-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube33_Trim_detail_1",
+          "identifier": "gltf:995807-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995808-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_1",
+          "identifier": "gltf:995821-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995822-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_1",
+          "identifier": "gltf:995835-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995836-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_1",
+          "identifier": "gltf:995849-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995850-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_1",
+          "identifier": "gltf:995863-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995864-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_1",
+          "identifier": "gltf:995877-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995878-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_1",
+          "identifier": "gltf:995891-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995892-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_1",
+          "identifier": "gltf:995905-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995906-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_1",
+          "identifier": "gltf:995919-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995920-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube42_Trim_detail_1",
+          "identifier": "gltf:995933-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995934-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube32_Trim_detail_1",
+          "identifier": "gltf:995947-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995948-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube33_Trim_detail_2",
+          "identifier": "gltf:995963-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995964-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_2",
+          "identifier": "gltf:995977-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995978-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_2",
+          "identifier": "gltf:995991-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "995992-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_2",
+          "identifier": "gltf:996005-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996006-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_2",
+          "identifier": "gltf:996019-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996020-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_2",
+          "identifier": "gltf:996033-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996034-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_2",
+          "identifier": "gltf:996047-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996048-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_2",
+          "identifier": "gltf:996061-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996062-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_2",
+          "identifier": "gltf:996075-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996076-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube42_Trim_detail_2",
+          "identifier": "gltf:996089-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996090-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube32_Trim_detail_2",
+          "identifier": "gltf:996103-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996104-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube33_Trim_detail_3",
+          "identifier": "gltf:996119-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996120-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_3",
+          "identifier": "gltf:996133-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996134-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_3",
+          "identifier": "gltf:996147-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996148-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_3",
+          "identifier": "gltf:996161-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996162-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_3",
+          "identifier": "gltf:996175-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996176-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_3",
+          "identifier": "gltf:996189-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996190-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_3",
+          "identifier": "gltf:996203-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996204-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_3",
+          "identifier": "gltf:996217-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996218-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_3",
+          "identifier": "gltf:996231-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996232-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube42_Trim_detail_3",
+          "identifier": "gltf:996245-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996246-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube32_Trim_detail_3",
+          "identifier": "gltf:996259-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996260-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube33_Trim_detail_4",
+          "identifier": "gltf:996275-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996276-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_4",
+          "identifier": "gltf:996289-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996290-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_4",
+          "identifier": "gltf:996303-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996304-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_4",
+          "identifier": "gltf:996317-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996318-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_4",
+          "identifier": "gltf:996331-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996332-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_4",
+          "identifier": "gltf:996345-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996346-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_4",
+          "identifier": "gltf:996359-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996360-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_4",
+          "identifier": "gltf:996373-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996374-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_4",
+          "identifier": "gltf:996387-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996388-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube33_Trim_detail_5",
+          "identifier": "gltf:996403-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996404-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_5",
+          "identifier": "gltf:996417-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996418-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_5",
+          "identifier": "gltf:996431-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996432-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_5",
+          "identifier": "gltf:996445-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996446-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_5",
+          "identifier": "gltf:996459-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996460-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_5",
+          "identifier": "gltf:996473-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996474-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_5",
+          "identifier": "gltf:996487-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996488-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_5",
+          "identifier": "gltf:996501-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996502-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_5",
+          "identifier": "gltf:996515-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996516-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube33_Trim_detail_6",
+          "identifier": "gltf:996531-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996532-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_6",
+          "identifier": "gltf:996545-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996546-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_6",
+          "identifier": "gltf:996559-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996560-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_6",
+          "identifier": "gltf:996573-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996574-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_6",
+          "identifier": "gltf:996587-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996588-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_6",
+          "identifier": "gltf:996601-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996602-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_6",
+          "identifier": "gltf:996615-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996616-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_6",
+          "identifier": "gltf:996629-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996630-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_6",
+          "identifier": "gltf:996643-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996644-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube33_Trim_detail_7",
+          "identifier": "gltf:996659-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996660-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_7",
+          "identifier": "gltf:996673-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996674-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_7",
+          "identifier": "gltf:996687-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996688-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_7",
+          "identifier": "gltf:996701-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996702-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_7",
+          "identifier": "gltf:996715-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996716-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_7",
+          "identifier": "gltf:996729-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996730-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_7",
+          "identifier": "gltf:996743-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996744-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_7",
+          "identifier": "gltf:996757-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996758-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_7",
+          "identifier": "gltf:996771-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996772-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube32_Trim_detail_4",
+          "identifier": "gltf:996785-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996786-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube33_Trim_detail_8",
+          "identifier": "gltf:996801-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996802-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_8",
+          "identifier": "gltf:996815-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996816-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_8",
+          "identifier": "gltf:996829-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996830-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_8",
+          "identifier": "gltf:996843-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996844-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_8",
+          "identifier": "gltf:996857-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996858-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_8",
+          "identifier": "gltf:996871-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996872-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_8",
+          "identifier": "gltf:996885-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996886-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_8",
+          "identifier": "gltf:996899-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996900-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_8",
+          "identifier": "gltf:996913-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996914-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube32_Trim_detail_5",
+          "identifier": "gltf:996927-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996928-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube33_Trim_detail_9",
+          "identifier": "gltf:996943-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996944-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_9",
+          "identifier": "gltf:996957-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996958-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_9",
+          "identifier": "gltf:996971-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996972-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_9",
+          "identifier": "gltf:996985-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "996986-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_9",
+          "identifier": "gltf:996999-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997000-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_9",
+          "identifier": "gltf:997013-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997014-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_9",
+          "identifier": "gltf:997027-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997028-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_9",
+          "identifier": "gltf:997041-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997042-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_9",
+          "identifier": "gltf:997055-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997056-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube32_Trim_detail_6",
+          "identifier": "gltf:997069-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997070-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube33_Trim_detail_10",
+          "identifier": "gltf:997085-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997086-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_10",
+          "identifier": "gltf:997099-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997100-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_10",
+          "identifier": "gltf:997113-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997114-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_10",
+          "identifier": "gltf:997127-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997128-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_10",
+          "identifier": "gltf:997141-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997142-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_10",
+          "identifier": "gltf:997155-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997156-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_10",
+          "identifier": "gltf:997169-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997170-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_10",
+          "identifier": "gltf:997183-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997184-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_10",
+          "identifier": "gltf:997197-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997198-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube32_Trim_detail_7",
+          "identifier": "gltf:997211-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997212-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_11",
+          "identifier": "gltf:997227-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997228-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_11",
+          "identifier": "gltf:997241-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997242-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_11",
+          "identifier": "gltf:997255-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997256-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_11",
+          "identifier": "gltf:997269-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997270-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_11",
+          "identifier": "gltf:997283-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997284-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube33_Trim_detail_11",
+          "identifier": "gltf:997299-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997300-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_11",
+          "identifier": "gltf:997313-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997314-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_11",
+          "identifier": "gltf:997327-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997328-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_11",
+          "identifier": "gltf:997341-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997342-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_12",
+          "identifier": "gltf:997355-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997356-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_12",
+          "identifier": "gltf:997371-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997372-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_12",
+          "identifier": "gltf:997385-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997386-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_12",
+          "identifier": "gltf:997399-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997400-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_13",
+          "identifier": "gltf:997413-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997414-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_12",
+          "identifier": "gltf:997427-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997428-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_12",
+          "identifier": "gltf:997441-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997442-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_12",
+          "identifier": "gltf:997455-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997456-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_12",
+          "identifier": "gltf:997469-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997470-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube33_Trim_detail_12",
+          "identifier": "gltf:997485-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997486-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube34_Trim_detail_13",
+          "identifier": "gltf:997499-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997500-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube35_Trim_detail_13",
+          "identifier": "gltf:997513-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997514-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube36_Trim_detail_13",
+          "identifier": "gltf:997527-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997528-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube37_Trim_detail_14",
+          "identifier": "gltf:997541-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997542-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube38_Trim_detail_13",
+          "identifier": "gltf:997555-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997556-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube39_Trim_detail_13",
+          "identifier": "gltf:997569-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997570-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube40_Trim_detail_13",
+          "identifier": "gltf:997583-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997584-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube41_Trim_detail_13",
+          "identifier": "gltf:997597-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997598-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pPlane1_lambert1_0",
+          "identifier": "gltf:997611-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997612-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube43_Air_condi_0",
+          "identifier": "gltf:997625-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997626-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube44_Air_condi_0",
+          "identifier": "gltf:997639-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997640-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube45_Air_condi_0",
+          "identifier": "gltf:997653-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997654-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube27_Window_onning_3",
+          "identifier": "gltf:997669-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997670-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_B_3",
+          "identifier": "gltf:997683-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997684-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_N_3",
+          "identifier": "gltf:997695-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997696-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube26_Window_onning_3",
+          "identifier": "gltf:997709-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997710-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube27_Window_onning_4",
+          "identifier": "gltf:997725-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997726-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_B_4",
+          "identifier": "gltf:997739-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997740-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_N_4",
+          "identifier": "gltf:997751-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997752-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube26_Window_onning_4",
+          "identifier": "gltf:997765-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997766-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube27_Window_onning_5",
+          "identifier": "gltf:997781-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997782-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_B_5",
+          "identifier": "gltf:997795-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997796-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_N_5",
+          "identifier": "gltf:997807-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997808-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube26_Window_onning_5",
+          "identifier": "gltf:997821-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997822-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube27_Window_onning_6",
+          "identifier": "gltf:997837-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997838-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_B_6",
+          "identifier": "gltf:997851-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997852-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_N_6",
+          "identifier": "gltf:997863-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997864-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube26_Window_onning_6",
+          "identifier": "gltf:997877-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997878-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube27_Window_onning_7",
+          "identifier": "gltf:997893-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997894-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_B_7",
+          "identifier": "gltf:997907-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997908-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_N_7",
+          "identifier": "gltf:997919-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997920-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube26_Window_onning_7",
+          "identifier": "gltf:997933-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997934-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube27_Window_onning_8",
+          "identifier": "gltf:997949-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997950-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_B_8",
+          "identifier": "gltf:997963-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997964-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_N_8",
+          "identifier": "gltf:997975-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997976-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube26_Window_onning_8",
+          "identifier": "gltf:997989-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "997990-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube27_Window_onning_9",
+          "identifier": "gltf:998005-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998006-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_B_9",
+          "identifier": "gltf:998019-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998020-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube25_Window_N_9",
+          "identifier": "gltf:998031-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998032-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube26_Window_onning_9",
+          "identifier": "gltf:998045-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998046-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube3_Window_B_6",
+          "identifier": "gltf:998065-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998066-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube4_Flower_Box_1_6",
+          "identifier": "gltf:998079-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998080-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube5_Window_B_6",
+          "identifier": "gltf:998093-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998094-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube6_Window_B_6",
+          "identifier": "gltf:998107-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998108-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube7_Window_N_6",
+          "identifier": "gltf:998121-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998122-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube8_Flower_Box_2_6",
+          "identifier": "gltf:998135-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998136-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube9_Window_N_6",
+          "identifier": "gltf:998149-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998150-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube10_Window_N_6",
+          "identifier": "gltf:998163-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998164-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube11_Window_B_6",
+          "identifier": "gltf:998177-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998178-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube12_Flower_Box_1_6",
+          "identifier": "gltf:998191-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998192-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube13_Window_B_6",
+          "identifier": "gltf:998205-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998206-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube14_Window_B_6",
+          "identifier": "gltf:998219-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998220-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube3_Window_B_7",
+          "identifier": "gltf:998237-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998238-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube4_Flower_Box_1_7",
+          "identifier": "gltf:998251-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998252-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube5_Window_B_7",
+          "identifier": "gltf:998265-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998266-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube6_Window_B_7",
+          "identifier": "gltf:998279-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998280-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube7_Window_N_7",
+          "identifier": "gltf:998293-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998294-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube8_Flower_Box_2_7",
+          "identifier": "gltf:998307-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998308-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube9_Window_N_7",
+          "identifier": "gltf:998321-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998322-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube10_Window_N_7",
+          "identifier": "gltf:998335-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998336-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube11_Window_B_7",
+          "identifier": "gltf:998349-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998350-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube12_Flower_Box_1_7",
+          "identifier": "gltf:998363-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998364-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube13_Window_B_7",
+          "identifier": "gltf:998377-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998378-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "pCube14_Window_B_7",
+          "identifier": "gltf:998391-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:998397-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "998392-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.003_0",
+          "identifier": "gltf:1001519-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:1001627-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "1001520-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.005_0",
+          "identifier": "gltf:1001533-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:1001627-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "1001534-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.006_0",
+          "identifier": "gltf:1001547-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:1001627-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "1001548-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.007_0",
+          "identifier": "gltf:1001561-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:1001627-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "1001562-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.001_0",
+          "identifier": "gltf:1001575-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:1001627-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "1001576-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube_0",
+          "identifier": "gltf:1001589-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:1001627-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "1001590-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.004_0",
+          "identifier": "gltf:1001603-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:1001627-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "1001604-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cylinder_0",
+          "identifier": "gltf:1001617-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "sourceIdentifier": "master3_d_object_model:1001627-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetLocator": "1001618-a8098ed6-805a-4a88-860d-aa8c39af06d3.glb",
+          "isExternalAsset": false
+        }
+      ]
+    },
+    {
+      "modelName": "3_d_objects_model",
+      "identifier": "3_d_objects_model:1043-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "children": [
+        {
+          "sectionFileLocation": "objects/anchor.object"
+        },
+        {
+          "sectionFileLocation": "objects/low-poly_truck_car_drifter/low-poly_truck_car_drifter.object"
+        },
+        {
+          "sectionFileLocation": "objects/low_poly_building/low_poly_building.object"
+        },
+        {
+          "sectionFileLocation": "objects/p.u.c._security_bot_7/p.u.c._security_bot_7.object"
+        }
+      ]
+    },
+    {
+      "sectionFileLocation": "practica1AR.scene"
+    },
+    {
+      "modelName": "layers",
+      "identifier": "layers:1045-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "children": [
+        {
+          "modelName": "layer",
+          "name": "layer0",
+          "identifier": "layer:1077-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+          "color": "0xff8c72cb"
+        }
+      ]
+    },
+    {
+      "modelName": "animations_model",
+      "identifier": "animations_model:1046-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "children": [
+        {
+          "sectionFileLocation": "objects/low-poly_truck_car_drifter/Car engine.animation"
+        },
+        {
+          "sectionFileLocation": "objects/p.u.c._security_bot_7/Take 01.animation"
+        }
+      ]
+    },
+    {
+      "modelName": "asset_collections_model",
+      "identifier": "asset_collections_model:1047-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "children": [
+        {
+          "modelName": "asset_collection_model",
+          "name": "anchor",
+          "identifier": "asset_collection_model:86724-e2fcc7b4-479d-45c2-a136-c0a6ad66267b",
+          "assetDataHash": "52b1bcea59765a219752c1e820f3c5df",
+          "assetLocator": "objects/anchor/anchor.fbx",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "52b1bcea59765a219752c1e820f3c5df",
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:86723-e2fcc7b4-479d-45c2-a136-c0a6ad66267b",
+              "namesForFeatureType": {
+                "Material": [
+                  "DefaultMaterial"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "low-poly_truck_car_drifter",
+          "identifier": "asset_collection_model:993024-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetDataHash": "82495a4ed7558de09ece6aa01435eb31",
+          "assetLocator": "objects/low-poly_truck_car_drifter/low-poly_truck_car_drifter.glb",
+          "authoringTool": "Sketchfab-12.66.0",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "82495a4ed7558de09ece6aa01435eb31",
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:993022-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+              "namesForFeatureType": {
+                "Animation": [
+                  "Car engine"
+                ],
+                "Material": [
+                  "Black",
+                  "Light_black",
+                  "Smoke",
+                  "Glass",
+                  "Orange",
+                  "Brown",
+                  "Light",
+                  "Glass_trailer",
+                  "Light_red",
+                  "Dark_brown",
+                  "Dark_brown_handle"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "low_poly_building",
+          "identifier": "asset_collection_model:998401-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetDataHash": "340108929e64c76d7aece3fb6f3f1d54",
+          "assetLocator": "objects/low_poly_building/low_poly_building.glb",
+          "authoringTool": "Sketchfab-12.67.0",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "340108929e64c76d7aece3fb6f3f1d54",
+          "textures": [
+            "objects/low_poly_building/Texture 0.texture",
+            "objects/low_poly_building/Texture 1.texture",
+            "objects/low_poly_building/Texture 10.texture",
+            "objects/low_poly_building/Texture 11.texture",
+            "objects/low_poly_building/Texture 12.texture",
+            "objects/low_poly_building/Texture 13.texture",
+            "objects/low_poly_building/Texture 3.texture",
+            "objects/low_poly_building/Texture 5.texture",
+            "objects/low_poly_building/Texture 7.texture",
+            "objects/low_poly_building/Texture 8.texture",
+            "objects/low_poly_building/Texture 9.texture"
+          ],
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:998399-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+              "namesForFeatureType": {
+                "Material": [
+                  "Foundation",
+                  "Walls",
+                  "Window_B",
+                  "Window_N",
+                  "Flower_Box_1",
+                  "lambert1",
+                  "Flower_Box_2",
+                  "Window_onning",
+                  "Door_texture",
+                  "Stair",
+                  "Trim",
+                  "Roof1",
+                  "Air_condi",
+                  "Trim_detail"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "p.u.c._security_bot_7",
+          "identifier": "asset_collection_model:1001641-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "assetDataHash": "aaf8e854d28ec475c83ede5d484bfe61",
+          "assetLocator": "objects/p.u.c._security_bot_7/p.u.c._security_bot_7.glb",
+          "authoringTool": "Sketchfab-12.68.0",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "aaf8e854d28ec475c83ede5d484bfe61",
+          "textures": [
+            "objects/p.u.c._security_bot_7/Texture 0-2.texture"
+          ],
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:1001639-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+              "namesForFeatureType": {
+                "Animation": [
+                  "Take 01"
+                ],
+                "Material": [
+                  "Material",
+                  "Material.001"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "patch_assets_model",
+      "identifier": "patch_assets_model:1052-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "children": [
+        {
+          "modelName": "patch_data_base_model",
+          "name": "manip_ring",
+          "identifier": "patch_data_base_model:159073-911045c3-8a0e-4bca-a72d-2916efb1018c",
+          "assetDataHash": "7b3d9d0265f8f506e691c94ded14a190",
+          "assetLocator": "patches/manip_ring.arp",
+          "isExternalAsset": true
+        }
+      ]
+    },
+    {
+      "modelName": "shaders",
+      "identifier": "shaders:1054-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "children": [
+        {
+          "modelName": "shader_code_asset_model",
+          "name": "imageBasedAntiAliasingShader",
+          "identifier": "shader_code_asset_model:503573-95d88d42-94c3-4d21-be5e-db151fe8757c",
+          "assetDataHash": "3dc85fdd37d97e927c7f012e89dea370",
+          "assetLocator": "shaders/imageBasedAntiAliasingShader.sca",
+          "builtinDeps": [
+            "texture2d",
+            "textureEnv",
+            "utils"
+          ],
+          "externalDeps": [],
+          "isExternalAsset": true,
+          "moduleName": "sparkShaderCode9485321418011661980",
+          "wordsHash": 5071223823444593832,
+          "children": [
+            {
+              "modelName": "shader_interface_model",
+              "identifier": "shader_interface_model:503575-95d88d42-94c3-4d21-be5e-db151fe8757c",
+              "description": "A SparkSL implementation of Fast Approximate Anti-Aliasing (FXAA).\nThis is entry point of the shader.",
+              "functionName": "user::main",
+              "linkageName": "sparkShaderCode9485321418011661980",
+              "children": [
+                {
+                  "modelName": "shaderInputPorts",
+                  "identifier": "shaderInputPorts:503577-95d88d42-94c3-4d21-be5e-db151fe8757c",
+                  "children": [
+                    {
+                      "modelName": "shader_input_port_model",
+                      "name": "Texture",
+                      "identifier": "shader_input_port_model:503581-95d88d42-94c3-4d21-be5e-db151fe8757c",
+                      "defaultValue": {
+                        "type": 0,
+                        "value": 0
+                      },
+                      "description": "",
+                      "valueType": "texture_2d"
+                    },
+                    {
+                      "modelName": "shader_input_port_model",
+                      "name": "EdgeSharpness",
+                      "identifier": "shader_input_port_model:503583-95d88d42-94c3-4d21-be5e-db151fe8757c",
+                      "defaultValue": {
+                        "type": 0,
+                        "value": 0.5
+                      },
+                      "description": "Edge Sharpness",
+                      "maximumValue": {
+                        "type": 0,
+                        "value": 1
+                      },
+                      "minimumValue": {
+                        "type": 0,
+                        "value": 0
+                      }
+                    },
+                    {
+                      "modelName": "shader_input_port_model",
+                      "name": "EdgeThreshold",
+                      "identifier": "shader_input_port_model:503585-95d88d42-94c3-4d21-be5e-db151fe8757c",
+                      "defaultValue": {
+                        "type": 0,
+                        "value": 0.5
+                      },
+                      "description": "Edge Threshold",
+                      "maximumValue": {
+                        "type": 0,
+                        "value": 1
+                      },
+                      "minimumValue": {
+                        "type": 0,
+                        "value": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "modelName": "shaderOutputPorts",
+                  "identifier": "shaderOutputPorts:503579-95d88d42-94c3-4d21-be5e-db151fe8757c",
+                  "children": [
+                    {
+                      "modelName": "shader_output_port_model",
+                      "name": "return",
+                      "identifier": "shader_output_port_model:503587-95d88d42-94c3-4d21-be5e-db151fe8757c",
+                      "description": "texture",
+                      "valueType": "lambda_vec2_to_vec4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "scripts_model",
+      "identifier": "scripts_model:1055-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "children": [
+        {
+          "modelName": "script_bridging_variables_model",
+          "identifier": "script_bridging_variables_model:1056-19c62b79-8d4c-49c9-ae3f-98605ecfa30f"
+        },
+        {
+          "modelName": "script",
+          "name": "License.js",
+          "identifier": "script:500999-95d88d42-94c3-4d21-be5e-db151fe8757c",
+          "assetDataHash": "d22e03b989a5913cb875b2919120a8c8",
+          "assetLocator": "scripts/License.js",
+          "isExternalAsset": true
+        }
+      ]
+    },
+    {
+      "modelName": "bundled_packages_model",
+      "identifier": "bundled_packages_model:1058-19c62b79-8d4c-49c9-ae3f-98605ecfa30f"
+    },
+    {
+      "modelName": "exportConfig",
+      "identifier": "exportConfig:1060-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "children": [
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:993029-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:993031-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:993033-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:993038-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:993040-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:993042-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:993047-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:993049-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:993051-a8098ed6-805a-4a88-860d-aa8c39af06d3",
+          "accuracy": "best",
+          "targetFormat": 1
+        }
+      ]
+    },
+    {
+      "modelName": "manifest",
+      "identifier": "manifest:1061-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "additionalEnabledChanges": [],
+      "assistantAppIDs": [
+        "2320137961422959"
+      ],
+      "assistantClientToken": null,
+      "assistantIncludeInDevelopmentArtifacts": false,
+      "assistantQuickTestEnabled": true,
+      "assistantStorageEnabled": true,
+      "assistantUseWit": false,
+      "audioEnableAudioGraphComponents": false,
+      "audioEnableAudioTransformationsApi": false,
+      "bodyTrackingMinVersion": 2,
+      "cameraControlDefaultCameraFacing": "unspecified",
+      "dynamicTextAltitude": false,
+      "dynamicTextDate": false,
+      "dynamicTextLocation": false,
+      "dynamicTextTranslation": false,
+      "dynamicTextWeather": false,
+      "effectDisablesAudioPreview": false,
+      "effectDisablesMicrophone": false,
+      "effectForceAsyncScripting": false,
+      "effectForcesSynchronousScripting": false,
+      "effectHasAmbientAudio": false,
+      "effectHasAudioGraphApi": false,
+      "effectHasTriggeredAudio": false,
+      "effectImageAntiAliasingEdgeSharpness": 0.5,
+      "effectImageAntiAliasingEdgeThreshold": 0.5,
+      "effectImageAntiAliasingTechnique": "fxaa",
+      "effectRecordingFromMic": false,
+      "effectUses4KTextures": false,
+      "effectUsesAnimationPlaybackController": false,
+      "effectUsesAnimationScriptingModule": false,
+      "effectUsesAppLauncher": false,
+      "effectUsesAssistant": false,
+      "effectUsesAudio": false,
+      "effectUsesAudioLegacyMicFork": false,
+      "effectUsesAudioMixer": false,
+      "effectUsesAudioSpatialEmitter": false,
+      "effectUsesAudioTimestamps": false,
+      "effectUsesAugmentControl": false,
+      "effectUsesAugmentGrouping": false,
+      "effectUsesAugmentSizeControl": false,
+      "effectUsesAutomaticAlphaSort": false,
+      "effectUsesAutomaticInstructions": false,
+      "effectUsesBlockModulesConfigExtras": false,
+      "effectUsesBlocks": true,
+      "effectUsesBlocksDownloadable": false,
+      "effectUsesBlocksScripting": false,
+      "effectUsesBodyTracking": false,
+      "effectUsesBodyTracking2DKeyPoints": false,
+      "effectUsesBoundingBoxScripting": false,
+      "effectUsesBoundingBoxUtilities": false,
+      "effectUsesCameraControl": false,
+      "effectUsesCameraInfoScriptingModule": false,
+      "effectUsesCameraShare": false,
+      "effectUsesComponentEvaluation": true,
+      "effectUsesComposedLocally": false,
+      "effectUsesComposedMaterial": true,
+      "effectUsesControllers": false,
+      "effectUsesCustomEngineSDK": false,
+      "effectUsesCustomFonts": false,
+      "effectUsesCustomMaterial": false,
+      "effectUsesCustomMaterialAndShaderCodeAsset": false,
+      "effectUsesCustomPipeline": false,
+      "effectUsesDSP": false,
+      "effectUsesDate": false,
+      "effectUsesDebugPatch": false,
+      "effectUsesDeltaTime": false,
+      "effectUsesDepth": false,
+      "effectUsesDepthData": false,
+      "effectUsesDepthShaderRead": false,
+      "effectUsesDeviceMotion": false,
+      "effectUsesDiagnosticsScriptingModule": false,
+      "effectUsesDirectionalLightEstimation": false,
+      "effectUsesDspAudioAnalyzer": false,
+      "effectUsesDspBitCrusher": false,
+      "effectUsesDspCompressor": false,
+      "effectUsesDspDelay": false,
+      "effectUsesDspDenoiser": false,
+      "effectUsesDspDistortion": false,
+      "effectUsesDspEnergyMeter": false,
+      "effectUsesDspModulator": false,
+      "effectUsesDspParametricEqualizer": false,
+      "effectUsesDspPitchShifter": false,
+      "effectUsesDspReverb": false,
+      "effectUsesDspVocoder": false,
+      "effectUsesDynamicInstructions": true,
+      "effectUsesDynamicScriptProperties": false,
+      "effectUsesDynamicText": false,
+      "effectUsesEmbeddedVideo": false,
+      "effectUsesEnvironmentTexturePatch": false,
+      "effectUsesExperienceControl": false,
+      "effectUsesExternalBlocks": false,
+      "effectUsesExternalFonts": false,
+      "effectUsesExternalMusicSelection": false,
+      "effectUsesExternalTextures": false,
+      "effectUsesExternalTexturesAudio": false,
+      "effectUsesExternalVideo": false,
+      "effectUsesExternalVideoStream": false,
+      "effectUsesFBA": false,
+      "effectUsesFaceDistortion": false,
+      "effectUsesFaceExpression52Blendshapes": false,
+      "effectUsesFaceExpressionExperimental": false,
+      "effectUsesFaceExpressionFitting": false,
+      "effectUsesFaceExtraction": false,
+      "effectUsesFaceTracker": false,
+      "effectUsesFaceTracker3D": false,
+      "effectUsesFaceTracker96": false,
+      "effectUsesFaceTrackingScripting2D": false,
+      "effectUsesFaceTrueScale": false,
+      "effectUsesFaceWave": false,
+      "effectUsesFacialExpressionRecognition": false,
+      "effectUsesFacialGestureRecognition": false,
+      "effectUsesFieldOfView": false,
+      "effectUsesFingerTracking": false,
+      "effectUsesFonts": false,
+      "effectUsesFormFactor": false,
+      "effectUsesFrameBrightness": false,
+      "effectUsesGalleryPicker": false,
+      "effectUsesGenericML": false,
+      "effectUsesGeoanchor": false,
+      "effectUsesGeoanchorAnywhere": false,
+      "effectUsesGlobalTransform": false,
+      "effectUsesGlslEs300Features": false,
+      "effectUsesGltfPbrShader": false,
+      "effectUsesGraphQL": false,
+      "effectUsesHairSegmentation": false,
+      "effectUsesHalfFloatRenderPass": false,
+      "effectUsesHandGestureKeypoints": false,
+      "effectUsesHandTracker": false,
+      "effectUsesHapticFeedback": false,
+      "effectUsesHeadsetInfo": false,
+      "effectUsesHmdNetworkingAPI": false,
+      "effectUsesI18n": false,
+      "effectUsesIdTracker": false,
+      "effectUsesImageAntiAliasing": false,
+      "effectUsesImageAssets": false,
+      "effectUsesImageBasedLighting": true,
+      "effectUsesInstruction": true,
+      "effectUsesIntent": false,
+      "effectUsesInterEffectLinking": false,
+      "effectUsesInternalScriptingAPI": false,
+      "effectUsesIrisTracking": false,
+      "effectUsesJavaScript": true,
+      "effectUsesJavaScriptRuntimeForPatches": false,
+      "effectUsesJavaScriptScripting": true,
+      "effectUsesJavaScriptShaders": false,
+      "effectUsesJavascriptToPatchesBridging": false,
+      "effectUsesLandmarkAR": false,
+      "effectUsesLayers": false,
+      "effectUsesLocale": false,
+      "effectUsesLocation": false,
+      "effectUsesLocationAirportData": false,
+      "effectUsesMaterialsScriptingModule": false,
+      "effectUsesMaxParticipants": false,
+      "effectUsesMicrophone": false,
+      "effectUsesMovingTargetTracking": false,
+      "effectUsesMultipeer": false,
+      "effectUsesMultipeerMessaging": false,
+      "effectUsesMultiplane": false,
+      "effectUsesMultiplayer": false,
+      "effectUsesMultipleRenderTargets": false,
+      "effectUsesMusic": false,
+      "effectUsesNativeUIControl": false,
+      "effectUsesNativeUIControlEditableText": false,
+      "effectUsesNativeUIControlEditableTextExitCB": false,
+      "effectUsesNativeUIControlPicker": false,
+      "effectUsesNativeUIControlPickerRemoteImages": false,
+      "effectUsesNativeUIControlPickerTooltip": false,
+      "effectUsesNativeUIControlRawTextInput": false,
+      "effectUsesNativeUIControlSlider": false,
+      "effectUsesNativeUIControlSliderThumbTexture": false,
+      "effectUsesNativeUIControlSliderTypeColor": false,
+      "effectUsesNativeUIControlSliderTypeProgress": false,
+      "effectUsesNetworking": false,
+      "effectUsesNetworkingScriptAPI": false,
+      "effectUsesObjectCapture": false,
+      "effectUsesObjectTracking": false,
+      "effectUsesOpticalFlow": false,
+      "effectUsesOpusCodec": false,
+      "effectUsesOverlayOutput": false,
+      "effectUsesPBRMaterial": true,
+      "effectUsesParticipant": false,
+      "effectUsesParticleSystem": false,
+      "effectUsesPeerOutput": false,
+      "effectUsesPeerVideoStream": false,
+      "effectUsesPermissions": false,
+      "effectUsesPersistence": false,
+      "effectUsesPersistenceCaptureScope": false,
+      "effectUsesPersistenceSharedScope": false,
+      "effectUsesPersonalization": false,
+      "effectUsesPhysics": false,
+      "effectUsesPhysicsSync": false,
+      "effectUsesPlaneTrackerTrackTextureAPI": false,
+      "effectUsesPlatformEvents": false,
+      "effectUsesPlatformEventsDocumentScoped": false,
+      "effectUsesPlatformFunctions": false,
+      "effectUsesPlatformTextures": false,
+      "effectUsesPlaybackInfo": false,
+      "effectUsesPortalPose": false,
+      "effectUsesPreciseLocation": false,
+      "effectUsesPrefabScriptingModule": false,
+      "effectUsesPreviewCaptureOutputs": true,
+      "effectUsesRGBCameraTexture": false,
+      "effectUsesRTRMapping": false,
+      "effectUsesRandomScriptingModule": false,
+      "effectUsesReactiveScriptingModule": false,
+      "effectUsesRealScaleEstimation": false,
+      "effectUsesRealScaleEstimationWithFallback": false,
+      "effectUsesRecognition": false,
+      "effectUsesRecognitionTracking": false,
+      "effectUsesRecordedSignalsForSamplers": false,
+      "effectUsesRemote3DModels": false,
+      "effectUsesRemoteMaps": false,
+      "effectUsesRenderPasses": true,
+      "effectUsesRenderSettingsHigh": false,
+      "effectUsesRingTryOn": false,
+      "effectUsesRotateVector": false,
+      "effectUsesSceneDepth": false,
+      "effectUsesSceneDepthWithFallback": false,
+      "effectUsesSceneObjectTags": false,
+      "effectUsesSceneRenderPassResolutionAspectRatio": false,
+      "effectUsesSceneScriptingModule": false,
+      "effectUsesScriptAnalytics": false,
+      "effectUsesScriptingDynamicInstantiation": false,
+      "effectUsesSegmentation": false,
+      "effectUsesSegmentationType": false,
+      "effectUsesShaderCode": true,
+      "effectUsesShaderPicking": false,
+      "effectUsesShadows": false,
+      "effectUsesSkinSegmentation": false,
+      "effectUsesSkinSmoothing": false,
+      "effectUsesSpatialGesture": false,
+      "effectUsesSpatialHandTracking": false,
+      "effectUsesSplitScreen": false,
+      "effectUsesStaticTargetTracking": false,
+      "effectUsesStyleTransfer": false,
+      "effectUsesSupportedOrientations": false,
+      "effectUsesSvg": false,
+      "effectUsesSyncDomApis": false,
+      "effectUsesTargetRecognition": false,
+      "effectUsesTextAssets": false,
+      "effectUsesTextCaptions": false,
+      "effectUsesTextExtrusion": false,
+      "effectUsesTexturesScriptingModule": false,
+      "effectUsesTimeScriptingModule": false,
+      "effectUsesToasterTracking": false,
+      "effectUsesTouchGestures": true,
+      "effectUsesTwoDimensionalText": false,
+      "effectUsesTypeScript": false,
+      "effectUsesUiCore": false,
+      "effectUsesUiPlanarBackend": false,
+      "effectUsesUnifiedTargetTracking": false,
+      "effectUsesUnitsScriptingModule": false,
+      "effectUsesVariadicMath": true,
+      "effectUsesVertexTextureFetch": false,
+      "effectUsesVisualShaders": true,
+      "effectUsesVisualShadersSdf": true,
+      "effectUsesVoiceInteraction": false,
+      "effectUsesWarpPostProcessor": false,
+      "effectUsesWarpPreProcessor": false,
+      "effectUsesWarpSmoothing": true,
+      "effectUsesWeather": false,
+      "effectUsesWebPTexture": false,
+      "effectUsesWebsockets": false,
+      "effectUsesWorldTracker": true,
+      "effectUsesWorldTrackerEnvironmentLight": false,
+      "effectUsesWorldTrackerJSAPI": false,
+      "effectUsesWorldTrackingWorldMap": false,
+      "effectUsesWorldUnderstanding": false,
+      "effectUsesWorldUnderstandingV2": false,
+      "effectUsesWriteableSignalSource": false,
+      "engineSDKVersion": "172.0",
+      "externalTexturesWhitelistedDomains": [],
+      "faceExpressionFittingMinVersion": 15,
+      "faceExpressionFittingRTRRetargetingMinVersion": 1,
+      "faceTrackerIsEnabled": false,
+      "faceTrackerMaxFaces": 1,
+      "faceTrackerMinVersion": 10,
+      "facewaveMinVersion": 1,
+      "geoanchorLatitudes": [],
+      "geoanchorLongitudes": [],
+      "hairSegmentationMinVersion": 1,
+      "handTrackerMaxHands": 2,
+      "handTrackerMinVersion": 3,
+      "instructionFindAnImageBackCameraEnabled": true,
+      "instructionFindAnImageFrontCameraEnabled": true,
+      "instructionFindBodyBackCameraEnabled": true,
+      "instructionFindBodyFrontCameraEnabled": true,
+      "instructionFindFaceBackCameraEnabled": true,
+      "instructionFindFaceFrontCameraEnabled": true,
+      "instructionFindHandBackCameraEnabled": true,
+      "instructionFindHandFrontCameraEnabled": true,
+      "instructionFindPersonBackCameraEnabled": true,
+      "instructionFindPersonFrontCameraEnabled": true,
+      "instructionTokens": [
+        "switch_camera_view_to_place",
+        "tap_to_place"
+      ],
+      "interEffectLinkingEffectIds": null,
+      "internalScriptingAPIDelay": false,
+      "internalScriptingAPIDeprecatedParticles": false,
+      "internalScriptingAPIEventStream": false,
+      "internalScriptingAPIExperimentalCameraInfo": false,
+      "internalScriptingAPIGlobalTransform": false,
+      "landmarkID": null,
+      "landmarkMeshID": null,
+      "landmarkMeshType": null,
+      "manuallyEnabledItemsIds": [
+        "effectUsesInstruction",
+        "effectUsesDynamicInstructions"
+      ],
+      "maxParticipantsCount": 0,
+      "multiclassSegmentationMinVersion": 3004,
+      "objectTrackerMaxObjects": 1,
+      "persistenceWhitelistedKeys": null,
+      "personalizationSpecialOccasion": "none",
+      "platformUsage": {},
+      "recognitionMinVersion": 2,
+      "ringTryOnMinVersion": 1,
+      "sceneDepthMinVersion": 1,
+      "sceneDepthWithFallbackMinVersion": 1,
+      "segmentationMinVersion": 2,
+      "shaderPostProcessor": false,
+      "shaderPreProcessor": false,
+      "supportsLandscape": false,
+      "supportsPortrait": true,
+      "supportsWildcardDomainsWhitelisting": false,
+      "targetRecognitionMinVersion": 2,
+      "touchGesturesSupportsLongPress": true,
+      "touchGesturesSupportsPan": true,
+      "touchGesturesSupportsPinch": true,
+      "touchGesturesSupportsRawTouch": false,
+      "touchGesturesSupportsRotate": true,
+      "touchGesturesSupportsTap": true,
+      "whitelistedDomains": null,
+      "witAppId": null,
+      "witClientToken": null,
+      "worldTrackerBackCameraEnabled": true,
+      "worldTrackerFrontCameraEnabled": true,
+      "worldTrackerMode": "plane",
+      "worldTrackerUsesFaceTracker": false
+    },
+    {
+      "modelName": "block_documents_model",
+      "identifier": "block_documents_model:1067-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "children": [
+        {
+          "modelName": "block_model",
+          "name": "LoopingAnimBlock",
+          "identifier": "block_model:96096-6dd63439-4270-45ae-afc6-bd61ff2ea1c5",
+          "assetDataHash": "2429d2c6b7bf3471e3aad8bd7c2467a3",
+          "assetLocator": "blocks/block0/block0.arblock",
+          "excludeDuringExport": true,
+          "instances": [
+            "block_scene_model:98096-6dd63439-4270-45ae-afc6-bd61ff2ea1c5"
+          ],
+          "isExternalAsset": true
+        }
+      ]
+    },
+    {
+      "modelName": "target",
+      "identifier": "target:1068-19c62b79-8d4c-49c9-ae3f-98605ecfa30f",
+      "targetUseCases": [
+        "STORIES"
+      ]
+    },
+    {
+      "modelName": "scripting_config_model",
+      "identifier": "scripting_config_model:195502-edfbdc52-ae65-48e1-9062-ab2c0ffd715c"
+    },
+    {
+      "modelName": "patch_editor_data_model",
+      "identifier": "patch_editor_data_model:94076-57555275-0a8b-40cb-a125-158320262aff"
+    },
+    {
+      "modelName": "patch_graphs_model",
+      "identifier": "patch_graphs_model:786727-a8098ed6-805a-4a88-860d-aa8c39af06d3"
+    },
+    {
+      "modelName": "graphicsConfig",
+      "identifier": "graphicsConfig:907805-a8098ed6-805a-4a88-860d-aa8c39af06d3"
+    },
+    {
+      "modelName": "videos_model",
+      "identifier": "videos_model:908366-a8098ed6-805a-4a88-860d-aa8c39af06d3"
+    }
+  ]
+}
