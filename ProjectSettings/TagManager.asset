@@ -8,6 +8,8 @@ TagManager:
   - Bullet
   - Spawn
   - Enemy
+  - Falled
+  - Completed
   layers:
   - Default
   - TransparentFX
